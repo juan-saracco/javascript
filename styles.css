@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(212, 243, 209, 0.586);
+}
+
+
+h1{
+    text-align: center;
+}
+
+.dolar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40rem;
+    margin: 1rem auto;
+    padding: .5rem;
+    background-color: rgba(178, 231, 161, 0.828);
+    border-radius: 5px;
+}
+
+h3{
+    margin-right: 3rem;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h4{
+    margin-top: -1px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
