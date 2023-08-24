@@ -1,7 +1,7 @@
 let date = new Date();
 let anio = date.getFullYear();
 
-const footer = document.getElementById("footer").textContent = `Juan saracco © - ${anio}`;
+const footer = document.getElementById("footer").textContent = `Juan Saracco © - ${anio}`;
 
 
 function fetchDolarValue() {
