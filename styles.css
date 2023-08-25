@@ -7,7 +7,7 @@ h1{
     text-align: center;
 }
 
-.dolar{
+.container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,19 +17,18 @@ h1{
     padding: .5rem;
     background-color: rgba(178, 231, 161, 0.828);
     border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
 }
 
-h3{
-    margin-right: 3rem;
-}
 
 .caja{
     display: flex;
     flex-direction: column;
-    width: 10rem;
+    width: 10.3rem;
     height: 100%;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
 }
 
 h4{
@@ -41,6 +40,15 @@ footer{
     text-align: center;
     width: 100%;
 }
+
+input{
+    width: 6rem;
+}
+
+span{
+    text-align: center;
+}
+
 
 @media screen and (max-width: 600px){
     h3, h4{
